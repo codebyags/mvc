@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+.file-manager__preview {
+	display: block;
+	width: 150px;
+	margin-bottom: 10px;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+.file-manager__preview_error {
+	border: 1px solid #d00;
+}
+
+.file-manager__preview_load {
+	opacity: 1;
+}
+
+.file-manager__folder {
+	cursor: pointer;
+}
+
+.file-manager__folder:hover {
+	color: #00d;
+}
+
+.file-manager__files {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+.file-manager__file {
+	display: block;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+.file-manager__file:hover {
+	cursor: pointer;
+	border: 1px solid #00d;
+	background-color: rgba(0, 0, 221, 0.05);
+}
+
+.file-manager__file_current {
+	border: 1px solid #07dd00;
+	background-color: rgba(7, 221, 0, 0.08);
+}
+
+.file-manager__file img {
+	max-width: 100%;
+}

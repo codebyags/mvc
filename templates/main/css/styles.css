@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #1b1f1b;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.card-mealgear {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-mealgear .btn-buy {
+  margin-top: auto;
+}
