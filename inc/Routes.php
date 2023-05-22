@@ -39,7 +39,7 @@ return [
 		// Отзывы
 		'*@/admin/reviews/' => ['Admin\DashboardController@index', 'AuthProvider'],
 
-		// Отзывы
+		// Блог
 		'*@/admin/blog/' => ['Admin\DashboardController@index', 'AuthProvider'],
 
 		// Файловый менеджер
